@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/test/vice
+          username: username
+          password: ghp_0Wghiut87677bLyDdLfRytt842Y2s07ivpU1A7E2Wgvs210NE0c
+          clone-on-start: true
+          default-label: main
